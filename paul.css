@@ -1,0 +1,140 @@
+.navigation {
+	height: 100px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 30px;
+	word-spacing: 30px;     /* self-explanatory   */
+}
+
+
+.navigation li {
+	display: inline;      /* Take away bullet points   */
+}
+
+
+.navigation a {
+	color: #001f10;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Montserrat;
+	text-decoration: none;       /* getting rid of underline when selected  */
+}
+
+.nav {
+	background-color: #FFFFFF;
+}
+
+.active {
+	color: white;     /* #001f10  */
+	text-shadow: 2px 2px 8px #33FF99, 2px 2px 8px #33FF99;
+
+}
+
+/*  using <span id=> "first" & "second" Meddon to style name, one word, two font  */
+.name {
+	padding-left: 50px;
+	padding-bottom: 10px;
+	display: center;
+}
+
+.name span {
+	padding-left: 150px;
+}
+
+.name h3{
+	padding-left: 150px;
+	color: #000000;
+	font-family: Montserrat;
+}
+
+.name p {
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #000000;
+	font-size: 18px;
+	font-family: Montserrat;
+}
+
+
+#first {
+	/*color: #33FF99;     */
+	color: #001f10;
+	font-size: 50px;
+	font-family: Montserrat;
+	text-shadow: 2px 2px 8px #33FF99, 2px 2px 8px #33FF99;
+}
+
+ #second {
+	color: #001f10;
+	font-size: 50px;
+	font-family: Meddon;
+	text-shadow: 2px 2px 8px #33FF99, 2px 2px 8px #33FF99;
+	/*text-shadow: 9px 2px 1px #0099CC, 11px 3px 2px #33ff99;  Montserrat */
+}  
+
+/*
+.name {
+	height: 250px;
+	font-family: Montserrat;
+}
+
+.name li {
+	display: inline;
+}
+
+.name h1 {
+	font-size: 75px;
+	color: white;
+	padding-left: 20px;
+	text-shadow: 9px 2px 1px #0099CC, 11px 3px 2px #33ff99;    
+	font-weight: bold;
+	word-spacing: 30px;
+}
+
+*/
+
+.intro {
+	background: -webkit-linear-gradient(top, white, #33FF99);
+	padding-top: 100px;
+	height: 10px;
+}
+
+
+.projects{
+	background-color: #33FF99;
+	height: 500px;
+	color: #33FF99;
+	padding-top: 10px;
+}
+
+.projects ol {
+	color: #33FF99;
+	padding-left: 200px;
+	list-style-type: none;
+
+}
+
+.projects a {
+	color: #001f10;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.projects ol li {
+	border-radius: 5px;
+	margin: 3px;
+	padding: 0.4em;
+}
+
+.pro {
+	background-color: #33FF99;
+}
+
+.active1 {
+	color: white;     /* #001f10  */
+	text-shadow: 2px 2px 8px white, 2px 2px 8px #33FF99;
+
+}
+
